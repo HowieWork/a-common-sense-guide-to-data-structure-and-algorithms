@@ -6,12 +6,8 @@ Repo status: **updating**
 
 ## Chpt.1 Why Data Structures Matter
 
-[Notes](FIXME)
-
-### Exercises
+[Notes](https://github.com/HowieWork/a-common-sense-guide-to-data-structure-and-algorithms/blob/master/01-why-data-structures-matter/script.js)
 
 ## Chpt.8 Blazing Fast Lookup with Hash Tables
 
 [Notes](FIXME)
-
-### Exercises
