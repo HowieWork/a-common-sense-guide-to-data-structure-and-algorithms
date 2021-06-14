@@ -4,6 +4,12 @@ This repo contains key notes and exercises I have completed for this book. I use
 
 Repo status: **updating**
 
+## Chpt.1 Why Data Structures Matter
+
+[Notes](FIXME)
+
+### Exercises
+
 ## Chpt.8 Blazing Fast Lookup with Hash Tables
 
 [Notes](FIXME)
