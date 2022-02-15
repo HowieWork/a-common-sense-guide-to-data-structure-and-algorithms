@@ -10,3 +10,17 @@ Resources:
 **UPDATE 02/15/2022**: initial commit.
 
 ### Chpt.1 Why Data Structures Matter
+
+**Main concepts**
+
+x. Linear search
+
+### Chpt.2 Why Algorithms Matter
+
+**Main concepts**
+
+1. Algorithm: a set of instructions for completing a specific task.
+
+2. Ordered Array: values should be kept in order \*remain sorted. Slower insertion, much faster search.
+
+3. Linear search vs. Binary search: binary search is only possible within an ordered array.
