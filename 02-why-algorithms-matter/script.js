@@ -1,6 +1,6 @@
 'Use strict';
 
-// Binary search in ordered array
+// Code Implementation: Binary search in ordered array
 const binarySearch = (array, value) => {
   // 1. DEFINE LOWER BOUND & UPPER BOUND
   let lowerBound = 0;

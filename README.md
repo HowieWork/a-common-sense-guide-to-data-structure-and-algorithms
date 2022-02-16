@@ -9,7 +9,7 @@ Resources:
 
 **UPDATE 02/15/2022**: initial commit.
 
-### Chpt.1 Why Data Structures Matter
+### Ch.1 Why Data Structures Matter
 
 **Main concepts**
 
@@ -23,7 +23,7 @@ Resources:
 
 5. Set: a data structure that does NOT allow duplicate values to be contained within it.
 
-### Chpt.2 Why Algorithms Matter
+### Ch.2 Why Algorithms Matter
 
 **Main concepts**
 
@@ -33,7 +33,7 @@ Resources:
 
 3. Linear search vs. Binary search: binary search is only possible within an ordered array.
 
-### Chpt.3 O Yes! Big O Notation
+### Ch.3 O Yes! Big O Notation
 
 **Main concepts**
 
@@ -44,3 +44,11 @@ Resources:
 3. Big O generally refers to the worst-case scenario unless specified. i.e. linear search is O(N).
 
 4. O(log N): time complexity of log time - increases one step each time the data is double.
+
+### Ch.4 Speeding up your code with Big O
+
+**Main concepts**
+
+1. Bubble Sort: O(N^2)
+
+2. Nested loop, often, O(N^2).
