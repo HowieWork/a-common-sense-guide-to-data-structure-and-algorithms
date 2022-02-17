@@ -57,10 +57,16 @@ Resources:
 
 **Main concepts**
 
-1. Selection Sort: O(N^2/2), in reality, O(N^2).
+1. Selection Sort: O(N^2/2), in reality, O(N^2). Twice faster than Bubble Sort
 
 2. Big O Notation ignores constants. \* Drop the regular numbers. Focus more on the number of times the loop runs, rather than the exact details of what happens within the loop.
 
 ### Ch.6 Optimizing for optimistic scenarios
 
 **Main concepts**
+
+1. Insertion Sort: worst: O(N^2); average: O(N^2/2); best: O(N)
+
+2. Big O Notation only **takes into account the highest order of N** when we have multiple orders added together.
+
+3. In the real world, **average scenarios** are what occur most of the time.
