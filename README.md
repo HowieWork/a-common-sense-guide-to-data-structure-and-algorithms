@@ -52,3 +52,11 @@ Resources:
 1. Bubble Sort: O(N^2)
 
 2. Nested loop, often, O(N^2).
+
+### Ch.5 Optimizing code with and without Big O
+
+**Main concepts**
+
+1. Selection Sort: O(N^2/2), in reality, O(N^2).
+
+2. Big O Notation ignores constants. \* Drop the regular numbers. Focus more on the number of times the loop runs, rather than the exact details of what happens within the loop.
