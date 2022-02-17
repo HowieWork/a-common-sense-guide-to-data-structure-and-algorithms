@@ -60,3 +60,7 @@ Resources:
 1. Selection Sort: O(N^2/2), in reality, O(N^2).
 
 2. Big O Notation ignores constants. \* Drop the regular numbers. Focus more on the number of times the loop runs, rather than the exact details of what happens within the loop.
+
+### Ch.6 Optimizing for optimistic scenarios
+
+**Main concepts**
