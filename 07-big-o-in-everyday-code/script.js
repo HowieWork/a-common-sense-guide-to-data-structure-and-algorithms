@@ -2,7 +2,11 @@
 
 // NOTE Code Implementation
 
-// Copy & paste
+// Book Exercises (Accuracy: 4/5 80%)
+// 1. My answer: O(N)
+// 2. My answer: O(N)
+// 3. My answer: O(N*M)
+// 4. My answer: O(N) (correct: O(N^3))
+// 5. My answer: O(logN)
 
-// Book Exercises
-// X. My answer: (Accuracy: x/x xxx%)
+// NOTE 4. Find the greatest product of three numbers from the given array. O(N^3)

@@ -70,3 +70,11 @@ Resources:
 2. Big O Notation only **takes into account the highest order of N** when we have multiple orders added together.
 
 3. In the real world, **average scenarios** are what occur most of the time.
+
+### Ch.7 Big O in Everyday Code
+
+**Main concepts**
+
+1. Pay attention to what is Big O of these two cases on book: Clothing Labels, Count the Ones.
+
+2. O(2^N) is slower than O(N^3) at a point. In a certain sense, O(2^N) is the opposite of O(log N).
