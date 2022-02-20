@@ -78,3 +78,19 @@ Resources:
 1. Pay attention to what is Big O of these two cases on book: Clothing Labels, Count the Ones.
 
 2. O(2^N) is slower than O(N^3) at a point. In a certain sense, O(2^N) is the opposite of O(log N).
+
+### Ch.8 Blazing fast lookup with Hash Tables
+
+1. Hash table: (1) A list of paired values; (2) Look up data in O(1); (3) A hash function must convert the same string to the same number every single time it's applies;
+
+2. One directional lookups
+
+3. Collision: trying to add data to a cell that is already filled is known as a collision
+
+4. Separate Chaining: Way to handle collisions.
+
+5. Hash Tables' efficiency depends on three factors: 1) How much data we're storing in the hash table; 2) How many cells are available in the hash table; 3) Which hash function we're using \* A good hash function is one that distributes its data across all available cells. The more we can spread out our data, the fewer collisions we will have.
+
+6. A good hash table: strikes a balance of avoiding collisions while not consuming lots of memory. '7 data 10 cells' rule; **Load Factor**: 0.7
+
+7. 'Using it as an index' to optimize codes
