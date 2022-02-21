@@ -94,3 +94,13 @@ Resources:
 6. A good hash table: strikes a balance of avoiding collisions while not consuming lots of memory. '7 data 10 cells' rule; **Load Factor**: 0.7
 
 7. 'Using it as an index' to optimize codes
+
+### Ch.9 Crafting Elegant Code with Stacks and Queues
+
+1. Stack: LIFO; vertical, top/bottom; **Pushing on** / **Popping from** the stack
+
+2. 'a constrained version of an array', what advantages? 1) Prevent potential bugs; 2) A new mental model for tackling problems \*LIFO mindset
+
+3. Queue: FIFO; horizontal, front/back; **Enqueue** / **Dequeue**
+
+4. Abstract data type: A set of theoretical rule that revolve around some other built-in data structure, i.e. set, stack, queue ...
