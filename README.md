@@ -104,3 +104,13 @@ Resources:
 3. Queue: FIFO; horizontal, front/back; **Enqueue** / **Dequeue**
 
 4. Abstract data type: A set of theoretical rule that revolve around some other built-in data structure, i.e. set, stack, queue ...
+
+### Ch.10 Recursively Recurse with Recursion
+
+1. Recursion: a function calling itself; In almost any case in which you can use a loop, you can also use recursion; Recursion is a tool that allows for writing elegant code.
+
+2. Base Case: every recursive function needs at least one base case to prevent it from calling itself indefinitely.
+
+3. How to read / write: 1) Starting analysis from the **base case** and building up is a great way to reason about recursive code.
+
+4. How computer works with recursion? Call Stack; Stack Overflow: there is simply no more room in the short-term memory to hold all this data.
