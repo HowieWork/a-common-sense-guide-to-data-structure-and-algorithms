@@ -7,7 +7,7 @@ Resources:
 - [A Common-Sense Guide to Data Structure and Algorithms](https://www.amazon.com/Common-Sense-Guide-Structures-Algorithms-Second/dp/1680507222/ref=sr_1_3?keywords=a+common+sense+guide+to+data+structures+and+algorithms&qid=1644931994&sprefix=a+common%2Caps%2C91&sr=8-3)
 - [Master the Coding Interview: Data Structures + Algorithms](https://www.udemy.com/course/master-the-coding-interview-data-structures-algorithms/)
 
-**UPDATE 02/15/2022**: initial commit.
+**UPDATE 02/25/2022**: Complete first 10 chapters.
 
 ### Ch.1 Why Data Structures Matter
 
