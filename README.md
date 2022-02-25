@@ -114,3 +114,19 @@ Resources:
 3. How to read / write: 1) Starting analysis from the **base case** and building up is a great way to reason about recursive code.
 
 4. How computer works with recursion? Call Stack; Stack Overflow: there is simply no more room in the short-term memory to hold all this data.
+
+### Ch.11 Learning to Write in Recursive
+
+1. Recursive Category: **repeatedly execute** a task
+
+2. **in-place** modification: the function actually changes the original array passed into function.
+
+3. Recursive trick: passing extra parameters
+
+4. Recursive Category: **calculations** - performing a calculation based on a subproblem
+
+5. Subproblem: a version of the very same problem applied to a smaller input, i.e. factorial(5) is a subproblem of factorial(6)
+
+6. How to Top-Down recursion: 1) imagine the function you're writing has already been implemented by someone else; 2) identify the subproblem of the problem; 3) see what happens when you call the function on the subproblem and go from there
+
+7. Factorial Time: O(N!)
