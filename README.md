@@ -130,3 +130,15 @@ Resources:
 6. How to Top-Down recursion: 1) imagine the function you're writing has already been implemented by someone else; 2) identify the subproblem of the problem; 3) see what happens when you call the function on the subproblem and go from there
 
 7. Factorial Time: O(N!)
+
+### Ch.12 Dynamic Programming
+
+1. Subproblem: when a problem is solved by solving smaller versions of the same problem. The smaller problem is called a subproblem.
+
+2. Overlapping Subproblem: subproblems overlapping, calling many of the same functions as each other.
+
+3. Dynamic Programming: process of optimizing recursive problems that have overlapping subproblems.
+
+4. Two techniques:
+   (1) momoization: reducing recursive calls by remembering previously computed functions;
+   (2) bottom-up: ditch recursion and use some other approach (like a loop) to solve the same problem.
