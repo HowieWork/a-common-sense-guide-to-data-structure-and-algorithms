@@ -4,5 +4,5 @@
 
 // Copy & paste
 
-// Book Exercises
-// X. My answer: (Accuracy: x/x xxx%)
+// Book Exercises (Accuracy: x/x xxx%)
+// X. My answer:

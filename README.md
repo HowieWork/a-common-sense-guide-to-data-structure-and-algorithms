@@ -142,3 +142,15 @@ Resources:
 4. Two techniques:
    (1) momoization: reducing recursive calls by remembering previously computed functions;
    (2) bottom-up: ditch recursion and use some other approach (like a loop) to solve the same problem.
+
+### Ch.13 Recursive Algorithms for Speed
+
+1. **Quicksort**: An extremely fast sorting algorithm that is particularly efficient for average scenarios. The built-in sorting algorithm is employed under the hood - Quicksort \* in average-scenario, Quicksort is better than Insertion Sort.
+
+2. Partitioning: O(N)
+
+3. Quicksort big O: 0(N*logN) *average scenario; O(N^2) \*worst-case scenario
+
+4. Quickselect: a hybrid of Quicksort and Binary search. We can find the correct value without having to sort the entire array. O(N)
+
+5. The fastest sorting algorithm is O(NlogN); Plenty of algorithms employ sorting as part of a larger process, at least O(N\*logN).
