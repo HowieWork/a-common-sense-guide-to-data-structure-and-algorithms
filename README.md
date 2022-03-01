@@ -154,3 +154,17 @@ Resources:
 4. Quickselect: a hybrid of Quicksort and Binary search. We can find the correct value without having to sort the entire array. O(N)
 
 5. The fastest sorting algorithm is O(NlogN); Plenty of algorithms employ sorting as part of a larger process, at least O(N\*logN).
+
+### Ch.14 Node-based Data Structure
+
+1. Nodes: connected data that is dispersed throughout the computer's memory.
+
+2. Linked list: a list of notes; each node comes with a little extra information (\*link), namely, the memory address of the next node in the list; each node consists of two memory cells (actual data + link); The final node's link contains null; The first node refers to head, the final node refers to tail.
+
+3. **Linked list**'s data can be spread throughout the computer's memory vs. **Array** needs to find an entire block of contiguous cells to store its data.
+
+4. Read: O(N); Search: O(N); **Insertion**: Average - O(N), Best, at the beginning of the list - O(1); **Deletion**: Average - O(N), Best, at the beginning of the list - O(1)
+
+5. Linked list is an amazing data structure for moving through an entire list while making insertions or deletions, as we never have to worry about shifting other data.
+
+6. Doubly Linked List: each node has two links; move both forward and backward through the list. O(1) for both inserting at the end and for deleting from the beginning. A perfect fit for serving as the queue's underlying data structure.
