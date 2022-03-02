@@ -168,3 +168,21 @@ Resources:
 5. Linked list is an amazing data structure for moving through an entire list while making insertions or deletions, as we never have to worry about shifting other data.
 
 6. Doubly Linked List: each node has two links; move both forward and backward through the list. O(1) for both inserting at the end and for deleting from the beginning. A perfect fit for serving as the queue's underlying data structure.
+
+### Ch.15 Binary Search Trees
+
+1. Tree: also, a node-based data structure, but within a tree, each node can have links to multiple nodes.
+
+2. **root**: top node of the tree; **descendants**/**ancestors**; **levels**; **balanced** \*property of a tree
+
+3. Binary Tree: a tree in which each node has zero, one, or two children;
+
+4. Binary Search Tree: (1) Each node can have at most one 'left' child and one 'right' child; (2) A node's 'left' descendants can only contain values that are less than the node itself. A node's 'right' descendants can only contain values that are greater than the node itself.
+
+5. Searching: O(logN); A balanced tree with N nodes will have log(N) levels.
+
+6. Insertion: O(logN)
+
+7. Deletion: if node being deleted has no children... /has one child... /has two children.../ successor node has a right child...
+
+8. Traverse the data structure: (1) inorder travesal: O(N), visi all N nodes of the tree; (2) preorder traversal (3) postorder traversal
