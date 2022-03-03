@@ -186,3 +186,15 @@ Resources:
 7. Deletion: if node being deleted has no children... /has one child... /has two children.../ successor node has a right child...
 
 8. Traverse the data structure: (1) inorder travesal: O(N), visi all N nodes of the tree; (2) preorder traversal (3) postorder traversal
+
+### Ch.16 Keeping your priorities straight with Heaps
+
+1. Priority queue
+
+2. Binary Heap:
+   (1) binary max-heap: heap condition: the value of each node must be greater than each of its descendant nodes. The tree must be complete.
+   (2) binary min-heap
+
+3. Complete Tree: a tree is completely filled with nodes; no nodes are missing. Special case: bottom row can have empty positions, as long as there aren't any nodes to the right of these empty positions.
+
+4. Heap insertion (O(log N)) and deletion (O(log N))
