@@ -42,7 +42,7 @@ const doubleArray = function (array, index = 0) {
   doubleArray(array, index + 1);
 };
 
-// const testingArray = [1, 2, 3, 4];
+const testingArray = [1, 2, 3, 4];
 // doubleArray(testingArray);
 // console.log(testingArray);
 
@@ -83,7 +83,7 @@ const factorialRecursiveTopDown = function (num) {
   return num * factorialRecursiveTopDown(num - 1);
 };
 
-// Exercises
+// Exercises in chapter
 // 1. Array Sum
 const sumOfArray = function (array) {
   if (array.length === 1) return array[0];
@@ -91,7 +91,6 @@ const sumOfArray = function (array) {
   // IMPORTANT NOTE -1 IS A VALID KEY FOR AN ARRAY OBJECT
   // return sumOfArray(array.slice(0, -1)) + array[array.length - 1];
 };
-const testingArray = [1, 2, 3, 4];
 // console.log(sumOfArray(testingArray));
 
 // 2. String Reversal
@@ -155,4 +154,70 @@ const generateAnagram = function (string) {
   return result;
 };
 
-console.log(generateAnagram('abc'));
+// console.log(generateAnagram('abc'));
+
+// Exercises
+// NOTE 1. Return total number of characters of an array of strings
+const totalNumOfChar = function (array) {
+  // Solution 1: Loop
+  // let totalNum = 0;
+  // for (const item of array) {
+  //   totalNum += item.length;
+  // }
+  // return totalNum;
+
+  // Solution 2: Recursion - Calculation based on a subproblem
+  if (array.length === 1) return array[0].length;
+  return array[0].length + totalNumOfChar(array.slice(1));
+};
+
+const testingArrayOfStrings = ['ab', 'c', 'def', 'ghij'];
+// console.log(totalNumOfChar(testingArrayOfStrings));
+
+// NOTE IMPORTANT 2. Return a new array just containing the even numbers from an input array
+const justEvenNum = function (array, index = 0, evenNumArray = []) {
+  // Solution: Recursion - Repeat Task *bottom up
+  // Base case
+  if (index === array.length) return evenNumArray;
+
+  if (array[index] % 2 === 0) evenNumArray.push(array[index]);
+  return justEvenNum(array, index + 1, evenNumArray);
+};
+
+const testingArrayOfNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// console.log(justEvenNum(testingArrayOfNums));
+
+// NOTE 3. "Triangular Numbers"
+const getTriangularNum = function (n) {
+  // Solution: Recursion - Calculate subproblem
+  if (n === 1) return 1;
+  return n + getTriangularNum(n - 1);
+};
+
+// console.log(getTriangularNum(7)); -> 28
+
+// NOTE 4. Return index of first occurred "x" of a string
+const getIndexOfFirstX = function (string, index = 0) {
+  // Solution: Recursion - Repeat task *bottom up
+  // Base case
+  if (string.length === index) return;
+
+  if (string[index] === 'x') return index;
+  return getIndexOfFirstX(string, index + 1);
+};
+
+// console.log(getIndexOfFirstX('jkfldbvklahfdjklssxhjkdlsa')); -> 18
+
+// NOTE 5. "Unique Paths"
+const calNumOfShortestPaths = function (numOfRows, numOfColumns) {
+  // Solution: Recursion - Calculate subproblem
+  // Base case
+  if (numOfRows === 1 || numOfColumns === 1) return 1;
+
+  return (
+    calNumOfShortestPaths(numOfRows - 1, numOfColumns) +
+    calNumOfShortestPaths(numOfRows, numOfColumns - 1)
+  );
+};
+
+// console.log(calNumOfShortestPaths(5, 5)); -> 70
