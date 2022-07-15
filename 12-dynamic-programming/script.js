@@ -96,4 +96,30 @@ const getPathNum = (col, row, memo = {}) => {
   return memo[[col, row]];
 };
 
-console.log(getPathNum(3, 3));
+// console.log(getPathNum(3, 3));
+
+// Exercises
+// 1. Add until sum reaches 100
+// 2. Golomb
+const golombV2 = function (n) {
+  if (n === 1) return 1;
+  return 1 + golombV2(n - golombV2(golombV2(n - 1)));
+};
+
+const golombV3 = function (n, memo = {}) {
+  if (n === 1) {
+    memo[1] = 1;
+    return memo[1];
+  }
+  if (!memo[n]) {
+    memo[n] = 1 + golombV3(n - golombV3(golombV3(n - 1, memo), memo), memo);
+    return memo[n];
+  } else {
+    return memo[n];
+  }
+};
+
+console.log(golombV2(10));
+console.log(golombV3(10));
+
+// 3. Unique paths
